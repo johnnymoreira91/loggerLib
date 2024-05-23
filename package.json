@@ -4,7 +4,9 @@
   "description": "logger service and utils",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c",
+    "dev": "APP_STAGE=dev tsx watch src/utils/script.ts"
   },
   "keywords": [
     "logger",
@@ -14,5 +16,11 @@
   "license": "ISC",
   "dependencies": {
     "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup-plugin-dts": "^6.1.1",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
   }
 }
