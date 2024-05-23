@@ -1,9 +1,9 @@
 import Logger from "../services/logger";
 
 function teste() {
-  Logger.error('Start function')
+  Logger.error('Start functions')
 
-  Logger.error('Finish function')
+  Logger.error('Finish functions')
 }
 
 teste()
