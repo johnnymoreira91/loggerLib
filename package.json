@@ -2,10 +2,14 @@
   "name": "loggerutils",
   "version": "1.0.1",
   "description": "logger service and utils",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "typings": "dist/my-lib.d.ts",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx rollup -c",
+    "build2": "npx rollup -c",
+    "build": "tsup",
     "dev": "APP_STAGE=dev tsx watch src/utils/script.ts"
   },
   "keywords": [
@@ -20,6 +24,8 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.6.2",
+    "tsup": "^8.0.2",
     "tsx": "^4.11.0",
     "typescript": "^5.4.5"
   }
