@@ -1,6 +1,6 @@
 {
-  "name": "loggerutils",
-  "version": "1.0.2",
+  "name": "loggerutilslib",
+  "version": "1.0.1",
   "description": "logger service and utils",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
