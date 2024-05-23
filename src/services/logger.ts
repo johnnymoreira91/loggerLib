@@ -1,5 +1,5 @@
 import winston from 'winston';
-import { randomUUID } from 'crypto';
+import { randomUUID } from 'node:crypto';
 
 const levels = {
   error: 0,
