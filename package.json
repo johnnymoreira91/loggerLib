@@ -1,6 +1,6 @@
 {
   "name": "loggerutils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "logger service and utils",
   "main": "index.js",
   "scripts": {
